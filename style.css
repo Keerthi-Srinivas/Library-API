@@ -1,0 +1,30 @@
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, #ff7eb3, #ff4d6d);
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+li {
+  transition: 0.3s;
+}
+
+li:hover {
+  transform: scale(1.05);
+}
+#search {
+  padding: 10px;
+  width: 250px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 15px;
+}
